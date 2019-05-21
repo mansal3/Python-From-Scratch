@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 21 07:11:12 2019
+
+@author: manpreetsaluja
+"""
+
+#topic :- inputs 
+
+num1=input("Enter the number")
+print("values is"+num1)
+type(num1)
+
+# type for all the input will be string 
+#always type of input will be string
+
+#we can typeecast:
+num2=int(input("enter int"))
+print(type(num2))
+print(num2)
+
+#adding diffrent type 
+num1=float(input("enter 1"))
+num2=int(input("enter 2"))
+num3=num1+num2
+print(num3)
+print(type(num3))
+
+#what if you dont know user will enter float or int or any other type 
+num1=float(input("enter age"))
+num2=float(input("enter age"))
+print(num1+num2)
+#here i m geetting 24.0 rather than 24 which is wrng
+
+#hence to handle such things there is some variable called eval
+
+num1=eval(input("enter the age"))
+num2=eval(input("enter the age"))
+print(num1+num2)
