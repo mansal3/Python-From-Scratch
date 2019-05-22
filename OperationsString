@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+#Created on Wed May 22 07:17:27 2019
+#Slicing ,DATATYPES,STRING FORMATTING,RIPLE QOUTES
+
+Name="Aditiya"
+
+#how to acces the name
+print(Name)
+#ouput Aditiya
+
+print(Name[0])
+#output A
+
+print(Name[1:7])
+#output index 1:7  ditiya
+
+print(Name[-1])
+#last variable print by using -1 --> a
+
+print(Name[2:-5])
+#blank
+
+print(Name[-3:-1])
+#the paramter with minus sign indicates it moves in reverse direction from backwards
+
+#DATATYPES
+#TWO TYPES OF DATATYPES: MUTABLE AND IMMUTABLE
+#MUTABLE: where you can do changes update or any thing editing in existing data 
+#IMMUTABLE:where u cant chnage the in the exisiting data once data is done you cannot update it 
+
+#UPDATE STRING
+str="Hello World"
+print(str+"python")
+#ouput: hello worldpython
+
+print(str[:6]+"python")
+#ouput: hello python
+
+#STRING FORMATTING
+
+print("my name is %s , i am %d yr old"%("Nancy",22))
+#output:my name is Nancy , i am 22 yr old
+
+#TRIPLE QOUTES
+#why triple qoutes..imagine your delaying with prticular sentence  their are various puncstion marks,
+#inverter commas etc etc for grammer but python tke them as quotes hence using triple quotes
+#we can avoid such problem
+
+str="""
+hii! my name is "nancy " and my "age" is 22
+"""
+print(str)
+#output hii! my name is "nancy " and my "age" is 22
+
+
+
+#THERE ARE OTHER VARIOUS STRING OPERATION TO ACCESS THEN JUST WRITE THE STRIND AND DOT AND PRESS TAB IT WILL
+#GIVE YOU ALL POSSIBLE OPERATION THAT CAN BE APPLIED
+
